@@ -6,7 +6,7 @@ def extraccion(cadena): #Funcion para extraer el nombre de usuario
     if resultado is None:
         return ""
     return resultado[1] #Devuelve el nombre de usuario
-  #Si hubiera puesto return[0] hubiera devuelto la cadena original
+  #Si hubiera puesto return[0] hubiera devuelto [juan.perez]
 
 #Cadena a manipular
 cadena = "INFO 2025-06-04: Usuario [juan.perez] ha iniciado sesión."
